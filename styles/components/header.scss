@@ -1,2 +1,55 @@
 .header {
+  display: flex;
+  width: 151.2rem;
+  padding: 2rem 10rem;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  left: 0;
+  right: 0;
+  @include media("<phone") {
+    width: 39rem;
+    padding: 2rem;
+  }
+}
+
+.header_text {
+  color: #fff;
+  font-family: "Inter";
+  font-size: 1.4rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100%; /* 1.4rem */
+  @include media("<phone") {
+    display: none;
+  }
+}
+
+.header div:nth-of-type(1) {
+  display: flex;
+  gap: 1.6rem;
+}
+
+.header div:nth-of-type(3) img {
+  width: 6.4rem;
+  height: 6.4rem;
+  flex-shrink: 0;
+  aspect-ratio: 1/1;
+}
+
+.header div:nth-of-type(3) {
+  display: flex;
+  gap: 1.6rem;
+}
+
+.menuimg {
+  width: 2.4rem;
+  height: 2.4rem;
+}
+
+.questionimg {
+  width: 2rem;
+  height: 2rem;
 }
