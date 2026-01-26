@@ -1,3 +1,7 @@
+<script setup lang="ts">
+import Button from "./Button.vue";
+</script>
+
 <template>
   <section class="hero">
     <div class="video-bg">
@@ -13,7 +17,12 @@
         <div></div>
         <h3>EVENTS</h3>
       </div>
-      <h2>WE BRING YOUR WORLD TO LIFE</h2>
+      <h2>
+        WE BRING YOUR <br data-desktop />
+        WORLD <br data-mobile />
+        TO LIFE
+      </h2>
+      <Button />
     </div>
   </section>
 </template>

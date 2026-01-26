@@ -1,0 +1,72 @@
+.button {
+  position: relative;
+  background: #fff;
+  overflow: hidden;
+  &:hover .colors {
+    transform: translateX(100%);
+  }
+  width: fit-content;
+}
+
+.btn {
+  color: #000;
+  font-family: "Neue Haas Grotesk Text Pro";
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 100%; /* 1.5rem */
+  display: flex;
+  padding: 2rem 2.4rem;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  position: relative;
+  z-index: 1;
+  @include media("<phone") {
+    display: flex;
+    padding: 2rem 2.4rem;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    align-self: stretch;
+    color: #000;
+    font-family: "Neue Haas Grotesk Text Pro";
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 100%; /* 1.5rem */
+    width: 35rem;
+  }
+}
+
+.colors {
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 5.5rem;
+  transform: translateX(-100%);
+  width: 100%;
+  transition: 0.5s ease;
+}
+
+.colors div:nth-of-type(1) {
+  background-color: red;
+  flex: 1;
+  height: auto;
+}
+
+.colors div:nth-of-type(2) {
+  background-color: green;
+  flex: 1;
+  height: auto;
+}
+
+.colors div:nth-of-type(3) {
+  background-color: purple;
+  flex: 1;
+  height: auto;
+}
+
+.colors div span:nth-of-type(1) {
+}

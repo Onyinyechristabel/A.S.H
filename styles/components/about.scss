@@ -1,0 +1,89 @@
+.about {
+  background-color: #000;
+}
+
+.about_content {
+  display: flex;
+  display: flex;
+  padding: 16rem 10rem 12rem 10rem;
+  align-items: flex-start;
+  gap: 20rem;
+  align-self: stretch;
+  border-bottom: 1px solid #171717;
+  @include media("<phone") {
+    display: flex;
+    padding: 10rem 2rem;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 6rem;
+    align-self: stretch;
+  }
+}
+
+.about_left {
+  color: #fff;
+  font-family: "Haas Grot Disp Trial";
+  font-size: 1.2rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100%; /* 1.2rem */
+  letter-spacing: 0.384rem;
+}
+
+.about_span {
+  opacity: 0.32;
+}
+
+.about_right {
+  color: #fff;
+  font-family: "Haas Grot Disp Trial";
+  font-size: 4.8rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 100%; /* 4.8rem */
+  letter-spacing: -0.096rem;
+  width: 97.2rem;
+  @include media("<phone") {
+    color: #fff;
+    font-family: "Haas Grot Disp Trial";
+    font-size: 3.2rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 110%; /* 3.52rem */
+    letter-spacing: -0.064rem;
+    width: 35rem;
+  }
+}
+
+.about_collage {
+  display: flex;
+  padding: 12rem 0;
+  justify-content: center;
+  align-items: center;
+  gap: 1.2rem;
+  align-self: stretch;
+  border-bottom: 1px solid #171717;
+  animation: scrolling 5s linear infinite;
+  @include media("<phone") {
+    display: flex;
+    padding: 10rem 0;
+    justify-content: center;
+    align-items: center;
+    gap: 1.2rem;
+    align-self: stretch;
+  }
+}
+
+.about_collage img {
+  width: 45rem;
+  height: 35rem;
+}
+
+@keyframes scrolling {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}

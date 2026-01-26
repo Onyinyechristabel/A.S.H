@@ -4,4 +4,52 @@
 .hero_content {
   position: absolute;
   top: 47.5rem;
+  left: 10rem;
+  @include media("<phone") {
+    top: 51.7rem;
+    left: 2rem;
+  }
+}
+.hero_firstcontent {
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+}
+
+.hero_firstcontent h3 {
+  color: #fff;
+  font-family: "Neue Haas Grotesk Text Pro";
+  font-size: 1.2rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100%; /* 1.2rem */
+  letter-spacing: 0.528rem;
+}
+
+.hero_firstcontent div {
+  width: 0.4rem;
+  height: 0.4rem;
+  background-color: #fff;
+  border-radius: 50%;
+}
+
+.hero_content h2 {
+  color: #fff;
+  font-family: "Haas Grot Disp Trial";
+  font-size: 9.6rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100%; /* 9.6rem */
+  letter-spacing: -0.288rem;
+  margin-top: 2.4rem;
+  margin-bottom: 4.2rem;
+  @include media("<phone") {
+    font-size: 5.6rem;
+    line-height: 100%; /* 5.6rem */
+    letter-spacing: -0.168rem;
+  }
+}
+
+.video-bg {
+  height: 100vh;
 }
