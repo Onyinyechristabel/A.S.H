@@ -8,7 +8,7 @@ import Button from "./Button.vue";
     <div class="services_services">
       <div class="first_services">
         <div class="first_services_left">
-          <div>
+          <div class="service_header">
             <p>[01]</p>
             <h2>VIDEO PRODUCTION</h2>
           </div>

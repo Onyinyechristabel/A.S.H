@@ -22,7 +22,7 @@
   font-family: "Haas Grot Disp Trial";
   font-size: 4.8rem;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 600;
   line-height: 100%; /* 4.8rem */
   letter-spacing: -0.096rem;
   text-align: center;
@@ -76,6 +76,7 @@
   background-color: #141414;
   border-top-left-radius: 1rem;
   border-bottom-left-radius: 1rem;
+  width: 55.6rem;
   @include media("<phone") {
     display: flex;
     padding: 3.2rem 3.2rem 6.4rem 3.2rem;
@@ -89,7 +90,7 @@
   }
 }
 
-.first_services_left div {
+.service_header {
   display: flex;
   gap: 1.2rem;
   align-items: center;
@@ -188,7 +189,7 @@
 
 .first_button {
   @include media("<phone") {
-    width: 20rem !important;
+    width: 35rem !important;
   }
 }
 
@@ -237,6 +238,7 @@
   background: #141414;
   border-top-right-radius: 1rem;
   border-bottom-right-radius: 1rem;
+  width: 55.6rem;
   @include media("<phone") {
     display: flex;
     padding: 3.2rem 3.2rem 6.4rem 3.2rem;
@@ -321,6 +323,7 @@
   background-color: #141414;
   border-top-left-radius: 1rem;
   border-bottom-left-radius: 1rem;
+  width: 55.6rem;
 }
 
 .third_services_left div {
@@ -405,6 +408,7 @@
   background: #141414;
   border-top-right-radius: 1rem;
   border-bottom-right-radius: 1rem;
+  width: 55.6rem;
 }
 
 .forth_services_right div {
@@ -445,5 +449,7 @@
 }
 
 .services_button {
-  width: 20rem !important;
+  @include media("<phone") {
+    width: 21rem !important;
+  }
 }

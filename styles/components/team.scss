@@ -1,0 +1,91 @@
+.tea {
+  display: flex;
+  padding: 12rem 10rem;
+  flex-direction: column;
+  gap: 10rem;
+  align-self: stretch;
+  flex-wrap: wrap;
+  background-color: #000;
+  @include media("<phone") {
+    padding: 8rem 2rem;
+    gap: 6rem;
+    flex-direction: column;
+  }
+}
+
+.tea h2 {
+  color: #fff;
+  font-family: "Haas Grot Disp Trial";
+  font-size: 4.8rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 100%; /* 4.8rem */
+  letter-spacing: -0.096rem;
+  margin: auto;
+  @include media("<phone") {
+    color: #fff;
+    font-family: "Haas Grot Disp Trial";
+    font-size: 3.2rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 100%; /* 3.2rem */
+    letter-spacing: -0.064rem;
+    margin: unset;
+  }
+}
+
+.tea_content {
+  display: flex;
+  align-items: flex-start;
+  align-content: flex-start;
+  gap: 3.2rem;
+  align-self: stretch;
+  flex-wrap: wrap;
+  @include media("<phone") {
+    flex-direction: column;
+  }
+}
+
+.tea_content_data {
+  display: flex;
+  flex-direction: column;
+}
+
+.tea_content_data img {
+  width: 41.6rem;
+  height: 41rem;
+  @include media("<phone") {
+    width: 35rem;
+    height: 41rem;
+  }
+}
+
+.tea_content_data div {
+  display: flex;
+  padding: 3.2rem 0;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 1rem;
+  align-self: stretch;
+}
+
+.tea_content_data div h4 {
+  color: #fff;
+  font-family: "Haas Grot Disp Trial";
+  font-size: 2.4rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 140%; /* 3.36rem */
+  letter-spacing: -0.024rem;
+}
+
+.tea_content_data div p {
+  color: #fff;
+  font-family: "Haas Grot Disp Trial";
+  font-size: 2.4rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%; /* 3.36rem */
+  opacity: 0.65;
+}

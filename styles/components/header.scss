@@ -9,9 +9,11 @@
   top: 0;
   left: 0;
   right: 0;
+
   @include media("<phone") {
     width: 39rem;
     padding: 2rem;
+    gap: 5rem;
   }
 }
 
@@ -59,7 +61,8 @@
   height: 2.4rem;
 }
 
-.questionimg {
-  width: 2rem;
-  height: 2rem;
+.menuh {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }

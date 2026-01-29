@@ -10,7 +10,7 @@
 
 .btn {
   color: #000;
-  font-family: "Neue Haas Grotesk Text Pro";
+  font-family: "Haas Grot Disp Trial";
   font-size: 1.5rem;
   font-style: normal;
   font-weight: 500;
@@ -30,7 +30,7 @@
     gap: 1rem;
     align-self: stretch;
     color: #000;
-    font-family: "Neue Haas Grotesk Text Pro";
+    font-family: "Haas Grot Disp Trial";
     font-size: 1.5rem;
     font-style: normal;
     font-weight: 500;
@@ -51,19 +51,19 @@
 }
 
 .colors div:nth-of-type(1) {
-  background-color: red;
+  background-color: #ff7f7f;
   flex: 1;
   height: auto;
 }
 
 .colors div:nth-of-type(2) {
-  background-color: green;
+  background-color: #bfff7f;
   flex: 1;
   height: auto;
 }
 
 .colors div:nth-of-type(3) {
-  background-color: purple;
+  background-color: #e17fff;
   flex: 1;
   height: auto;
 }

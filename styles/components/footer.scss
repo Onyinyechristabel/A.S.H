@@ -1,2 +1,79 @@
 .footer {
+  display: flex;
+  width: 151.2rem;
+  padding: 2rem 10rem 4rem 10rem;
+  justify-content: space-between;
+  align-items: center;
+  background: #171717;
+  padding-bottom: 4rem;
+  @include media("<phone") {
+    display: flex;
+    padding: 2rem;
+    flex-direction: column;
+    align-items: center;
+    gap: 4rem;
+    align-self: stretch;
+    width: 39rem;
+    padding-bottom: 2rem;
+  }
+}
+
+.first_footer {
+  display: flex;
+  width: 22.5rem;
+  align-items: center;
+  gap: 2rem;
+  flex-shrink: 0;
+  @include media("<phone") {
+    justify-content: space-between;
+    gap: unset;
+    width: 35rem;
+  }
+}
+
+.first_footer img {
+  width: 6.4rem;
+  height: 6.4rem;
+}
+
+.first_footer div {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+}
+
+.first_footer div img {
+  width: 2.4rem;
+  height: 2.4rem;
+  aspect-ratio: 1/1;
+}
+
+.second_footer {
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+  @include media("<phone") {
+    justify-content: space-between;
+    gap: unset;
+    width: 35rem;
+  }
+}
+
+.second_footer h4 {
+  color: #fff;
+  font-family: "Inter";
+  font-size: 1.4rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100%; /* 1.4rem */
+}
+
+.third_footer h3 {
+  color: #fff;
+  font-family: "Haas Grot Disp Trial";
+  font-size: 1.4rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%; /* 1.96rem */
+  opacity: 0.65;
 }

@@ -3,10 +3,10 @@
 }
 .hero_content {
   position: absolute;
-  top: 47.5rem;
+  top: 35.5rem;
   left: 10rem;
   @include media("<phone") {
-    top: 51.7rem;
+    top: 41.7rem;
     left: 2rem;
   }
 }
@@ -18,7 +18,7 @@
 
 .hero_firstcontent h3 {
   color: #fff;
-  font-family: "Neue Haas Grotesk Text Pro";
+  font-family: "Haas Grot Disp Trial";
   font-size: 1.2rem;
   font-style: normal;
   font-weight: 400;

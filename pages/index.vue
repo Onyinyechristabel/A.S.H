@@ -4,5 +4,8 @@
     <About />
     <Mission />
     <Services />
+    <Work />
+    <Team />
+    <Contact />
   </main>
 </template>

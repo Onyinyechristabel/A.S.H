@@ -9,14 +9,13 @@
         <span>ABOUT</span>
         <span>ABOUT</span>
       </h3>
-
+    </div>
+    <div class="menuh">
+      <img src="/images/artsvg.svg" alt="" />
       <img class="menuimg" data-mobile src="/images/icon2.svg" alt="" />
     </div>
+
     <div>
-      <img src="/images/artsvg.svg" alt="" />
-    </div>
-    <div>
-      <img class="questionimg" data-mobile src="/images/icon1.svg" alt="" />
       <h3 class="header_text">
         <span>SERVICES</span>
         <span>SERVICES</span>
