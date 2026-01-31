@@ -1,0 +1,108 @@
+.case {
+  display: flex;
+  padding-top: 12rem;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10rem;
+  align-self: stretch;
+  background: #000;
+  @include media("<phone") {
+    gap: 8rem;
+  }
+}
+
+.case h2 {
+  color: #fff;
+  font-family: "Haas Grot Disp Trial";
+  font-size: 4.8rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 100%; /* 4.8rem */
+  letter-spacing: -0.096rem;
+  margin: auto;
+  @include media("<phone") {
+    font-size: 3.2rem;
+    letter-spacing: -0.064rem;
+  }
+}
+
+.case_content {
+  display: flex;
+  flex-direction: column;
+}
+
+.case_one {
+  display: flex;
+  width: 151.2rem;
+  padding: 10rem;
+  align-items: flex-start;
+  gap: 15rem;
+  border-bottom: 1px solid #171717;
+  position: relative;
+  @include media("<phone") {
+    padding: 6rem 2rem;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 6rem;
+    align-self: stretch;
+  }
+}
+
+.case_one div {
+  display: flex;
+  flex-direction: column;
+}
+
+.case_one div > h5 {
+  color: #fff;
+  font-family: "Haas Grot Disp Trial";
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100%; /* 1.6rem */
+}
+
+.case_one div > p {
+  color: rgba(255, 255, 255, 0.65);
+  font-family: "Haas Grot Disp Trial";
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%; /* 2.24rem */
+}
+
+.case_one h3 {
+  color: #fff;
+  font-family: "Bebas Neue";
+  font-size: 12.8rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 90%; /* 11.52rem */
+  letter-spacing: -0.256rem;
+  text-transform: uppercase;
+  width: 63.2rem;
+  @include media("<phone") {
+    font-size: 6.4rem;
+    letter-spacing: -0.128rem;
+    width: 35rem;
+  }
+}
+
+.case_one div > h4 {
+  color: #fff;
+  font-family: "Haas Grot Disp Trial";
+  font-size: 1.2rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100%; /* 1.2rem */
+  letter-spacing: 0.384rem;
+  position: absolute;
+  top: 30rem;
+  @include media("<phone") {
+    position: unset;
+  }
+}
+
+.case_one span {
+  opacity: 0.32;
+}
