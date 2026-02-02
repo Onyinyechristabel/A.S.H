@@ -62,6 +62,7 @@
   display: flex;
   @include media("<phone") {
     display: unset;
+    max-width: 100%;
   }
 }
 
@@ -87,6 +88,7 @@
     align-self: stretch;
     border-bottom-right-radius: 1rem;
     border-bottom-left-radius: unset;
+    max-width: 100%;
   }
 }
 
@@ -184,6 +186,7 @@
     border-top-right-radius: unset;
     border-bottom-left-radius: 1rem;
     border-bottom-right-radius: 1rem;
+    max-width: 100%;
   }
 }
 
@@ -197,6 +200,7 @@
   display: flex;
   @include media("<phone") {
     flex-direction: column;
+    max-width: 100%;
   }
 }
 
@@ -223,6 +227,8 @@
     justify-content: center;
     align-items: center;
     align-self: stretch;
+    max-width: 100%;
+    order: 1;
   }
 }
 
@@ -247,10 +253,11 @@
     align-items: flex-start;
     gap: 1rem;
     align-self: stretch;
+    max-width: 100%;
   }
 }
 
-.second_services_right div {
+.second_services_right > div {
   display: flex;
   align-items: center;
   gap: 1.2rem;
@@ -296,6 +303,11 @@
 
 .third_services {
   display: flex;
+  max-width: 100%;
+  @include media("<phone") {
+    flex-direction: column;
+    max-width: 100%;
+  }
 }
 
 .third_services_right {
@@ -310,6 +322,15 @@
   align-self: stretch;
   border-top-right-radius: 1rem;
   border-bottom-right-radius: 1rem;
+  @include media("<phone") {
+    display: flex;
+    height: 70rem;
+    padding: 8.5059rem 0;
+    justify-content: flex-end;
+    align-items: flex-start;
+    gap: 3.8469rem;
+    align-self: stretch;
+  }
 }
 
 .third_services_left {
@@ -324,15 +345,26 @@
   border-top-left-radius: 1rem;
   border-bottom-left-radius: 1rem;
   width: 55.6rem;
+  @include media("<phone") {
+    display: flex;
+    padding: 3.2rem 3.2rem 6.4rem 3.2rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 2.4rem;
+    align-self: stretch;
+  }
 }
 
-.third_services_left div {
+.third_services_left > div {
   display: flex;
   gap: 1.2rem;
   align-items: center;
+  @include media("<phone") {
+  }
 }
 
-.third_services_left div p {
+.third_services_left > div > p {
   color: #fff;
   font-family: "Haas Grot Disp Trial";
   font-size: 1.2rem;
@@ -343,7 +375,7 @@
   opacity: 0.32;
 }
 
-.third_services_left div h2 {
+.third_services_left > div > h2 {
   color: #fff;
   font-family: "Haas Grot Disp Trial";
   font-size: 1.2rem;
@@ -354,7 +386,7 @@
   text-transform: uppercase;
 }
 
-.third_services_left h4 {
+.third_services_left > h4 {
   color: #fff;
   font-family: "Haas Grot Disp Trial";
   font-size: 2.4rem;
@@ -363,9 +395,18 @@
   line-height: 140%; /* 3.36rem */
   opacity: 0.65;
   width: 37.6rem;
+  @include media("<phone") {
+    color: #fff;
+    font-family: "Haas Grot Disp Trial";
+    font-size: 2.4rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 3.36rem */
+    width: 28.6rem;
+  }
 }
 
-.third_services_left h3 {
+.third_services_left > h3 {
   color: #fff;
   font-family: "Haas Grot Disp Trial";
   font-size: 2.4rem;
@@ -375,10 +416,23 @@
   opacity: 0.65;
   width: 37.6rem;
   margin-bottom: 2.4rem;
+  @include media("<phone") {
+    color: #fff;
+    font-family: "Haas Grot Disp Trial";
+    font-size: 2.4rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 3.36rem */
+    width: 28.6rem;
+  }
 }
 
 .forth_services {
   display: flex;
+  @include media("<phone") {
+    flex-direction: column;
+    max-width: 100%;
+  }
 }
 
 .forth_services_left {
@@ -394,6 +448,10 @@
   height: auto;
   border-top-left-radius: 1rem;
   border-bottom-left-radius: 1rem;
+  @include media("<phone") {
+    max-width: 100%;
+    flex-direction: column;
+  }
 }
 
 .forth_services_right {
@@ -409,9 +467,12 @@
   border-top-right-radius: 1rem;
   border-bottom-right-radius: 1rem;
   width: 55.6rem;
+  @include media("<phone") {
+    max-width: 100%;
+  }
 }
 
-.forth_services_right div {
+.forth_services_right > div {
   display: flex;
   align-items: center;
   gap: 1.2rem;

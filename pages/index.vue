@@ -1,5 +1,6 @@
 <template>
   <main class="page" id="home">
+    <Header />
     <Hero />
     <About />
     <Mission />
@@ -8,5 +9,6 @@
     <Work />
     <Team />
     <Contact />
+    <Footer />
   </main>
 </template>

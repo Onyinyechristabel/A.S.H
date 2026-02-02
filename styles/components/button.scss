@@ -6,6 +6,9 @@
     transform: translateX(100%);
   }
   width: fit-content;
+  @include media("<phone") {
+    max-width: 100%;
+  }
 }
 
 .btn {
@@ -36,6 +39,7 @@
     font-weight: 500;
     line-height: 100%; /* 1.5rem */
     width: 35rem;
+    max-width: 100%;
   }
 }
 
