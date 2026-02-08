@@ -24,7 +24,9 @@ import Button from "./Button.vue";
           <Button class="first_button" />
         </div>
         <div class="first_services_right">
-          <img src="" alt="" />
+          <img src="/images/bb.jpg" alt="" />
+          <img src="/images/bc.jpg" alt="" />
+          <img src="/images/bd.jpg" alt="" />
         </div>
       </div>
       <div class="second_services">

@@ -88,7 +88,7 @@
   }
 }
 
-.case_one div > h4 {
+pm .case_one div > h4 {
   color: #fff;
   font-family: "Haas Grot Disp Trial";
   font-size: 1.2rem;
@@ -105,4 +105,16 @@
 
 .case_one span {
   opacity: 0.32;
+}
+
+.shadows {
+  @include media("<phone") {
+    background: linear-gradient(
+      89.66deg,
+      #fb9d17 0.26%,
+      #f1373e 51.02%,
+      #52a1c7 101.53%
+    );
+    -webkit-background-clip: text;
+  }
 }

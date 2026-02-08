@@ -7,7 +7,7 @@
           <h5>Client / Brand</h5>
           <p>Short 1-line description</p>
         </div>
-        <h3>Assassin's Creed: Shadows</h3>
+        <h3>Assassin's Creed: <span class="shadows"> Shadows </span></h3>
         <div>
           <h4><span>[</span>READ MORE <span>]</span></h4>
         </div>
@@ -17,7 +17,9 @@
           <h5>Client / Brand</h5>
           <p>Short 1-line description</p>
         </div>
-        <h3>The Elder Scrolls Online: Gold Road</h3>
+        <h3>
+          The Elder Scrolls Online: <span class="shadows">Gold Road</span>
+        </h3>
         <div>
           <h4><span>[</span>READ MORE <span>]</span></h4>
         </div>
@@ -27,7 +29,7 @@
           <h5>Client / Brand</h5>
           <p>Short 1-line description</p>
         </div>
-        <h3>Game of Thrones: Legends</h3>
+        <h3>Game of Thrones: <span class="shadows"> Legends</span></h3>
         <div>
           <h4><span>[</span>READ MORE <span>]</span></h4>
         </div>
