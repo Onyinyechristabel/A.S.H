@@ -63,7 +63,7 @@
   gap: 1.2rem;
   align-self: stretch;
   border-bottom: 1px solid #171717;
-  animation: scrolling 5s linear infinite;
+  animation: scrolling 7.5s linear alternate infinite;
   @include media("<phone") {
     display: flex;
     padding: 10rem 0;
@@ -71,6 +71,7 @@
     align-items: center;
     gap: 1.2rem;
     align-self: stretch;
+    animation: scrolling-mobile 15s linear alternate infinite;
   }
 }
 
@@ -81,9 +82,18 @@
 
 @keyframes scrolling {
   0% {
-    transform: translateX(0);
+    transform: translateX(72.3);
   }
   100% {
-    transform: translateX(-50%);
+    transform: translateX(-72.3%);
+  }
+}
+
+@keyframes scrolling-mobile {
+  0% {
+    transform: translateX(425%);
+  }
+  100% {
+    transform: translateX(-425%);
   }
 }

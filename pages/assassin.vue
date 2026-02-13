@@ -1,6 +1,4 @@
 <script setup lang="ts">
-import Header from "~/components/Header.vue";
-import Contact from "~/components/Contact.vue";
 import Footer from "~/components/Footer.vue";
 </script>
 
@@ -15,7 +13,11 @@ import Footer from "~/components/Footer.vue";
         </div>
         <h3 class="assassin_right">Assassin’s Creed: Shadows</h3>
       </div>
-      <video src="" class="assassin_video"></video>
+      <video class="video_bgg" autoplay muted loop playsinline>
+        <source
+          src="https://res.cloudinary.com/dvk4u5mgl/video/upload/v1770833692/Bethesda_ESO_CaseStudy_Video_1_jksipb.mp4"
+        />
+      </video>
       <div class="assassin_challenges">
         <h3 class="assassin_challenges_left">
           <span class="assassin_span">[</span>THE CHALLENGE<span
@@ -89,11 +91,11 @@ import Footer from "~/components/Footer.vue";
           </div>
           <div>
             <img src="" alt="" />
-            <p>Assassin's Creed: Shadows</p>
+            <p>The Elder Scrolls Online: Gold Road</p>
           </div>
           <div>
             <img src="" alt="" />
-            <p>Assassin's Creed: Shadows</p>
+            <p>Game of Thrones: Legends</p>
           </div>
         </div>
       </div>

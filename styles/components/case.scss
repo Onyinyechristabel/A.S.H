@@ -39,6 +39,21 @@
   gap: 15rem;
   border-bottom: 1px solid #171717;
   position: relative;
+  &.active > div > img {
+    opacity: 1;
+  }
+  &.active .shadows {
+    background: linear-gradient(
+      89.66deg,
+      #fb9d17 0.26%,
+      #f1373e 51.02%,
+      #52a1c7 101.53%
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+  }
   @include media("<phone") {
     padding: 6rem 2rem;
     flex-direction: column;
@@ -48,12 +63,12 @@
   }
 }
 
-.case_one div {
+.case_one > div {
   display: flex;
   flex-direction: column;
 }
 
-.case_one div > h5 {
+.case_one > div > h5 {
   color: #fff;
   font-family: "Haas Grot Disp Trial";
   font-size: 1.6rem;
@@ -69,9 +84,10 @@
   font-style: normal;
   font-weight: 400;
   line-height: 140%; /* 2.24rem */
+  white-space: pre;
 }
 
-.case_one h3 {
+.case_one > h3 {
   color: #fff;
   font-family: "Bebas Neue";
   font-size: 12.8rem;
@@ -80,7 +96,9 @@
   line-height: 90%; /* 11.52rem */
   letter-spacing: -0.256rem;
   text-transform: uppercase;
-  width: 63.2rem;
+  width: 65rem;
+  flex-shrink: 0;
+  margin-right: -10rem;
   @include media("<phone") {
     font-size: 6.4rem;
     letter-spacing: -0.128rem;
@@ -88,7 +106,26 @@
   }
 }
 
-pm .case_one div > h4 {
+.case_one > div > img {
+  width: 28rem;
+  height: 20rem;
+  opacity: 0;
+  transition: 0.5 ease;
+  @include media("<phone") {
+    display: none;
+  }
+}
+
+.case_one:nth-of-type(1) > div > img {
+  transform: rotate(-8.804deg);
+  position: absolute;
+  top: 2rem;
+  @include media("<phone") {
+    display: none;
+  }
+}
+
+.case_one > div > h4 {
   color: #fff;
   font-family: "Haas Grot Disp Trial";
   font-size: 1.2rem;
@@ -97,24 +134,27 @@ pm .case_one div > h4 {
   line-height: 100%; /* 1.2rem */
   letter-spacing: 0.384rem;
   position: absolute;
-  top: 30rem;
+  bottom: 10rem;
   @include media("<phone") {
     position: unset;
   }
 }
 
-.case_one span {
-  opacity: 0.32;
+.case_one > span {
+  background: linear-gradient(
+    89.66deg,
+    #fb9d17 0.26%,
+    #f1373e 51.02%,
+    #52a1c7 101.53%
+  );
+  -webkit-background-clip: text;
 }
 
 .shadows {
-  @include media("<phone") {
-    background: linear-gradient(
-      89.66deg,
-      #fb9d17 0.26%,
-      #f1373e 51.02%,
-      #52a1c7 101.53%
-    );
-    -webkit-background-clip: text;
-  }
+  background: #fff;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  transition: 0.5 ease;
 }
