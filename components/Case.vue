@@ -1,5 +1,5 @@
 <template>
-  <section class="case">
+  <section class="case" id="caseid">
     <h2>Our Works/Case Studies</h2>
     <div class="case_content">
       <div class="case_one" :class="{ active: progress > 0 && progress < 0.3 }">
@@ -57,7 +57,7 @@ onMounted(() => {
   ScrollTrigger.create({
     trigger: ".case",
     scrub: true,
-    start: "-50% 0%",
+    start: "-25% 0%",
     end: "100% 0%",
     animation: gsap
       .timeline({

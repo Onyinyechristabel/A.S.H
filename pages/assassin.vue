@@ -26,16 +26,15 @@ import Footer from "~/components/Footer.vue";
           >
         </h3>
         <h2 class="assassin_challenges_right">
-          Bethesda Softworks, the publishers of The Elder Scrolls Online were
-          announcing a major expansion that introduced a revolutionary new
-          crafting system for players. This system, called "Scribing," centers
-          around a unique in-game tool called the "True-Sight Lens," which
-          players need to craft and customize unlimited new combat skills to
-          suit their playstyle, adding a whole new dimension to gameplay.
-          Bethesda wanted to generate significant excitement for this expansion,
-          titled Gold Road, but they knew they needed more than just advertising
-          to cut through the noise and capture the imagination of both existing
-          and potential players.
+          Ubisoft, the developer behind the acclaimed Assassin's Creed
+          franchise, sought to make some noise at its flagship event, Ubisoft
+          Forward, with the promotion of its upcoming release, Assassin's Creed:
+          Shadows. This installment dives into the rich history of Japan for the
+          first time, and explores a setting that loyal gamers have been asking
+          for since the beginning of the franchise. With a passionate fanbase
+          and a legacy of immersive, historically-inspired worlds, Ubisoft
+          needed a campaign that would not only thrill their core player base
+          but also expand its reach to a broader audience
         </h2>
       </div>
       <div class="assassin_approach">
@@ -46,15 +45,18 @@ import Footer from "~/components/Footer.vue";
           >
         </h3>
         <h2 class="assassin_approach_right">
-          Recognizing the need for a truly immersive and engaging experience, we
-          came up with a multi-faceted strategy to vividly realize the expansive
-          world of Elder Scrolls Online: Gold Road.
+          Our plan fused the digital and physical, transforming the historical
+          weaponry and artistry of Assassin's Creed: Shadows into something you
+          can see and feel.
         </h2>
       </div>
       <div class="assassin_images_category">
-        <img src="" alt="" />
-        <img src="" alt="" />
-        <img src="" alt="" />
+        <img src="/images/ASSASIN.webp" alt="" data-desktop />
+        <img src="/images/ASSASIN 2.webp" alt="" data-desktop />
+        <img src="/images/ASSASIN 3.webp" alt="" data-desktop />
+        <img src="/images/ASSASINS.webp" alt="" data-mobile />
+        <img src="/images/ASSASINS 2.webp" alt="" data-mobile />
+        <img src="/images/ASSASINS 3.webp" alt="" data-mobile />
       </div>
       <div class="assassin_takeaway">
         <h3 class="assassin_takeaway_left">
@@ -65,20 +67,22 @@ import Footer from "~/components/Footer.vue";
         </h3>
         <div class="assassin_takeaway_right">
           <h2>
-            We bridge the gap between the virtual and the tangible, creating
-            immersive experiences that resonate with gamers.
+            Live Event Impact: Offered 25+ influencers and 100+ industry leaders
+            a hands-on experience, amplifying buzz and exposure.
           </h2>
           <h2>
-            We tell stories that capture the imagination and deepen player
-            connection.
+            Top-Performing Social Content: Videos with Kabuto helmet and Menpo
+            mask at forging demonstration accounted for 68% of total views.
+            Playful text overlays and attendee interaction also performed well.
           </h2>
           <h2>
-            We reach the right audience with the right message at the right
-            time.
+            Custom Paid Media Success: Real-time optimizations boosted positive
+            engagement. Videos performed exceptionally, delivering significant
+            added value and exceeding average views.
           </h2>
           <h2>
-            We drive engagement, generate excitement, and contribute to the
-            success of our clients' games.
+            Podcast Value: Strong complementary asset that offered direct
+            insights from Ubisoft and a personal, behind-the-scenes perspective.
           </h2>
         </div>
       </div>

@@ -11,7 +11,7 @@ import Footer from "~/components/Footer.vue";
           <h3>Client / Brand</h3>
           <h4>Short 1-line description</h4>
         </div>
-        <h3 class="assassin_right">Assassin’s Creed: Shadows</h3>
+        <h3 class="assassin_right">The Elder Scrolls Online: Gold Road</h3>
       </div>
       <video class="video_bgg" autoplay muted loop playsinline>
         <source
@@ -52,9 +52,12 @@ import Footer from "~/components/Footer.vue";
         </h2>
       </div>
       <div class="assassin_images_category">
-        <img src="" alt="" />
-        <img src="" alt="" />
-        <img src="" alt="" />
+        <img src="/images/Frame 42.webp" alt="" data-desktop />
+        <img src="/images/Frame 43.webp" alt="" data-desktop />
+        <img src="/images/Frame 44.webp" alt="" data-desktop />
+        <img src="/images/Frame 420.webp" alt="" data-mobile />
+        <img src="/images/Frame 430.webp" alt="" data-mobile />
+        <img src="/images/Frame 440.webp" alt="" data-mobile />
       </div>
       <div class="assassin_takeaway">
         <h3 class="assassin_takeaway_left">

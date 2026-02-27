@@ -120,6 +120,7 @@
   transform: rotate(-8.804deg);
   position: absolute;
   top: 2rem;
+  transition: 0.5 ease;
   @include media("<phone") {
     display: none;
   }

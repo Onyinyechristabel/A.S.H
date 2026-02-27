@@ -1,7 +1,7 @@
 <template>
   <header class="header">
     <div>
-      <NuxtLink href="/" target="_blank">
+      <NuxtLink @click="scrollTo('#caseid')" target="_blank">
         <h3 class="header_text">
           <span>WORK</span>
           <span>WORK</span>
@@ -28,6 +28,12 @@
         <span>CONTACT US</span>
       </h3>
     </div>
+    <div class="header_menu">
+      <h3 data-id="work" class="header_menu_text">WORK</h3>
+      <h3 data-id="about" class="header_menu_text">ABOUT</h3>
+      <h3 data-id="services" class="header_menu_text">SERVICES</h3>
+      <h3 data-id="contact" class="header_menu_text">CONTACT</h3>
+    </div>
   </header>
 </template>
 
@@ -48,4 +54,8 @@ onMounted(() => {
     ),
   });
 });
+
+function scrollTo(id: string) {
+  window.lenis.scrollTo(id);
+}
 </script>
