@@ -2,48 +2,57 @@
   <section class="case" id="caseid">
     <h2>Our Works/Case Studies</h2>
     <div class="case_content">
-      <div class="case_one" :class="{ active: progress > 0 && progress < 0.3 }">
-        <div>
-          <h5>Client / Brand</h5>
-          <p>Short 1-line description</p>
+      <NuxtLink href="/assassin" target="_blank">
+        <div
+          class="case_one"
+          :class="{ active: progress > 0 && progress < 0.3 }"
+        >
+          <div>
+            <h5>Client / Brand</h5>
+            <p>Short 1-line description</p>
+          </div>
+          <h3>Assassin's Creed: <span class="shadows"> Shadows </span></h3>
+          <div class="readmore">
+            <img src="/images/k.webp" alt="" class="k" />
+            <h4><span>[</span>READ MORE <span>]</span></h4>
+          </div>
         </div>
-        <h3>Assassin's Creed: <span class="shadows"> Shadows </span></h3>
-        <div class="readmore">
-          <img src="/images/k.webp" alt="" class="k" />
-          <h4><span>[</span>READ MORE <span>]</span></h4>
+      </NuxtLink>
+      <NuxtLink href="/elderScroll" target="_blank">
+        <div
+          class="case_one"
+          :class="{ active: progress > 0.3 && progress < 0.6 }"
+        >
+          <div>
+            <h5>Client / Brand</h5>
+            <p>Short 1-line description</p>
+          </div>
+          <h3>
+            The Elder Scrolls Online:<br />
+            <span class="shadows">Gold Road</span>
+          </h3>
+          <div>
+            <img src="/images/m1.webp" alt="" />
+            <h4 class="readmore"><span>[</span>READ MORE <span>]</span></h4>
+          </div>
         </div>
-      </div>
-      <div
-        class="case_one"
-        :class="{ active: progress > 0.3 && progress < 0.6 }"
-      >
-        <div>
-          <h5>Client / Brand</h5>
-          <p>Short 1-line description</p>
+      </NuxtLink>
+      <NuxtLink href="/gameOfThrones" target="_blank">
+        <div
+          class="case_one"
+          :class="{ active: progress > 0.6 && progress < 0.9 }"
+        >
+          <div>
+            <h5>Client / Brand</h5>
+            <p>Short 1-line description</p>
+          </div>
+          <h3>Game of Thrones: <span class="shadows"> Legends</span></h3>
+          <div>
+            <img src="/images/m3.webp" alt="" />
+            <h4 class="readmore"><span>[</span>READ MORE <span>]</span></h4>
+          </div>
         </div>
-        <h3>
-          The Elder Scrolls Online:<br />
-          <span class="shadows">Gold Road</span>
-        </h3>
-        <div>
-          <img src="/images/m1.webp" alt="" />
-          <h4 class="readmore"><span>[</span>READ MORE <span>]</span></h4>
-        </div>
-      </div>
-      <div
-        class="case_one"
-        :class="{ active: progress > 0.6 && progress < 0.9 }"
-      >
-        <div>
-          <h5>Client / Brand</h5>
-          <p>Short 1-line description</p>
-        </div>
-        <h3>Game of Thrones: <span class="shadows"> Legends</span></h3>
-        <div>
-          <img src="/images/m3.webp" alt="" />
-          <h4 class="readmore"><span>[</span>READ MORE <span>]</span></h4>
-        </div>
-      </div>
+      </NuxtLink>
     </div>
   </section>
 </template>
