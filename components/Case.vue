@@ -57,8 +57,8 @@ onMounted(() => {
   ScrollTrigger.create({
     trigger: ".case",
     scrub: true,
-    start: "-25% 0%",
-    end: "100% 0%",
+    start: "-15% 0%",
+    end: "80% 0%",
     animation: gsap
       .timeline({
         onUpdate: function () {

@@ -41,6 +41,7 @@
   position: relative;
   &.active > div > img {
     opacity: 1;
+    --transform: translateY(0);
   }
   &.active .shadows {
     background: linear-gradient(
@@ -53,6 +54,7 @@
     -webkit-text-fill-color: transparent;
     background-clip: text;
     text-fill-color: transparent;
+    transition: 0.5s ease;
   }
   @include media("<phone") {
     padding: 6rem 2rem;
@@ -109,18 +111,19 @@
 .case_one > div > img {
   width: 28rem;
   height: 20rem;
+  transform: var(--transform);
   opacity: 0;
-  transition: 0.5 ease;
+  --transform: translateY(50%);
+  transition: 0.5s ease;
   @include media("<phone") {
     display: none;
   }
 }
 
 .case_one:nth-of-type(1) > div > img {
-  transform: rotate(-8.804deg);
+  transform: rotate(-8.804deg) var(--transform);
   position: absolute;
   top: 2rem;
-  transition: 0.5 ease;
   @include media("<phone") {
     display: none;
   }
@@ -157,5 +160,5 @@
   -webkit-text-fill-color: transparent;
   background-clip: text;
   text-fill-color: transparent;
-  transition: 0.5 ease;
+  transition: none;
 }
