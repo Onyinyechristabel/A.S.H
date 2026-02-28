@@ -89,15 +89,15 @@ import Footer from "~/components/Footer.vue";
         <h2>Related Work</h2>
         <div class="assassin_related_content">
           <div>
-            <img src="" alt="" />
+            <img src="/images/r.webp" alt="" />
             <p>Assassin's Creed: Shadows</p>
           </div>
           <div>
-            <img src="" alt="" />
+            <img src="/images/m.webp" alt="" />
             <p>The Elder Scrolls Online: Gold Road</p>
           </div>
           <div>
-            <img src="" alt="" />
+            <img src="/images/d.webp" alt="" />
             <p>Game of Thrones: Legends</p>
           </div>
         </div>

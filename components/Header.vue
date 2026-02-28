@@ -7,10 +7,12 @@
           <span>WORK</span>
         </h3>
       </NuxtLink>
-      <h3 class="header_text">
-        <span>ABOUT</span>
-        <span>ABOUT</span>
-      </h3>
+      <NuxtLink @click="scrollTo('#aboutid')" target="_blank">
+        <h3 class="header_text">
+          <span>ABOUT</span>
+          <span>ABOUT</span>
+        </h3>
+      </NuxtLink>
     </div>
     <NuxtLink href="/" class="header_profile">
       <div class="menuh">
@@ -19,14 +21,18 @@
       </div>
     </NuxtLink>
     <div>
-      <h3 class="header_text">
-        <span>SERVICES</span>
-        <span>SERVICES</span>
-      </h3>
-      <h3 class="header_text">
-        <span>CONTACT US</span>
-        <span>CONTACT US</span>
-      </h3>
+      <NuxtLink @click="scrollTo('#servicesid')" target="_blank">
+        <h3 class="header_text">
+          <span>SERVICES</span>
+          <span>SERVICES</span>
+        </h3>
+      </NuxtLink>
+      <NuxtLink @click="scrollTo('#contactid')" target="_blank">
+        <h3 class="header_text">
+          <span>CONTACT US</span>
+          <span>CONTACT US</span>
+        </h3>
+      </NuxtLink>
     </div>
     <div class="header_menu">
       <h3 data-id="work" class="header_menu_text">WORK</h3>

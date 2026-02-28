@@ -1,9 +1,5 @@
-<script setup lang="ts">
-import Button from "./Button.vue";
-</script>
-
 <template>
-  <section class="services">
+  <section class="services" id="servicesid">
     <h1>Our Services</h1>
     <div class="services_services">
       <div class="first_services">

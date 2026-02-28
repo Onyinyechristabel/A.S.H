@@ -1,5 +1,5 @@
 <template>
-  <section class="about">
+  <section class="about" id="aboutid">
     <div class="about_content">
       <p class="about_left">
         <span class="about_span">[</span>ABOUT US<span class="about_span"

@@ -1,9 +1,5 @@
-<script setup lang="ts">
-import Button from "./Button.vue";
-</script>
-
 <template>
-  <section class="contact">
+  <section class="contact" id="contactid">
     <p class="contact_left">
       <span class="contact_span">[</span>Contact US<span class="contact_span"
         >]</span

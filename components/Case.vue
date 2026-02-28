@@ -9,7 +9,7 @@
         </div>
         <h3>Assassin's Creed: <span class="shadows"> Shadows </span></h3>
         <div class="readmore">
-          <img src="/images/m1.webp" alt="" />
+          <img src="/images/k.webp" alt="" class="k" />
           <h4><span>[</span>READ MORE <span>]</span></h4>
         </div>
       </div>

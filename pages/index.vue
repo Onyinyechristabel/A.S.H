@@ -5,6 +5,7 @@
     <About />
     <Mission />
     <Services />
+    <Logos />
     <Case />
     <Work />
     <Team />

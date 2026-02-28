@@ -1,21 +1,43 @@
 <template>
   <footer class="footer">
     <div class="first_footer">
-      <img src="/images/artsvg.svg" alt="" />
+      <NuxtLink href="/" target="_blank">
+        <img src="/images/artsvg.svg" alt="" />
+      </NuxtLink>
       <div>
-        <img src="/images/InstagramLogo.svg" alt="" />
-        <img src="/images/LinkedLogo.svg" alt="" />
-        <img src="/images/YoutubeLogo.svg" alt="" />
+        <NuxtLink href="/" target="_blank">
+          <img src="/images/InstagramLogo.svg" alt="" />
+        </NuxtLink>
+        <NuxtLink href="/" target="_blank">
+          <img src="/images/LinkedLogo.svg" alt="" />
+        </NuxtLink>
+        <NuxtLink href="/" target="_blank">
+          <img src="/images/YoutubeLogo.svg" alt="" />
+        </NuxtLink>
       </div>
     </div>
     <div class="second_footer">
-      <h4>WORK</h4>
-      <h4>ABOUT</h4>
-      <h4>SERVICES</h4>
-      <h4>CONTACT US</h4>
+      <NuxtLink @click="scrollTo('#caseid')" target="_blank">
+        <h4>WORK</h4>
+      </NuxtLink>
+      <NuxtLink @click="scrollTo('#aboutid')" target="_blank">
+        <h4>ABOUT</h4>
+      </NuxtLink>
+      <NuxtLink @click="scrollTo('#servicesid')" target="_blank">
+        <h4>SERVICES</h4>
+      </NuxtLink>
+      <NuxtLink @click="scrollTo('#contactid')" target="_blank">
+        <h4>CONTACT US</h4>
+      </NuxtLink>
     </div>
     <div class="third_footer">
       <h3>Copyright © 2024 ASH Entertainment</h3>
     </div>
   </footer>
 </template>
+
+<script setup lang="ts">
+function scrollTo(id: string) {
+  window.lenis.scrollTo(id);
+}
+</script>
