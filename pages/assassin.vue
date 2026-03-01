@@ -11,7 +11,7 @@
       </div>
       <video class="video_bgg" autoplay muted loop playsinline>
         <source
-          src="https://res.cloudinary.com/dvk4u5mgl/video/upload/v1770833692/Bethesda_ESO_CaseStudy_Video_1_jksipb.mp4"
+          src="https://res.cloudinary.com/dvk4u5mgl/video/upload/v1770833461/AC_Shadows_Case_Study_Video_1_nghzar.mp4"
         />
       </video>
       <div class="assassin_challenges">
@@ -82,21 +82,28 @@
           </h2>
         </div>
       </div>
+
       <div class="assassin_related">
         <h2>Related Work</h2>
         <div class="assassin_related_content">
-          <div>
-            <img src="/images/r.webp" alt="" />
-            <p>Assassin's Creed: Shadows</p>
-          </div>
-          <div>
-            <img src="/images/m.webp" alt="" />
-            <p>The Elder Scrolls Online: Gold Road</p>
-          </div>
-          <div>
-            <img src="/images/d.webp" alt="" />
-            <p>Game of Thrones: Legends</p>
-          </div>
+          <NuxtLink href="/assassin">
+            <div>
+              <img src="/images/r.webp" alt="" />
+              <p>Assassin's Creed: Shadows</p>
+            </div>
+          </NuxtLink>
+          <NuxtLink href="/elderScroll">
+            <div>
+              <img src="/images/m.webp" alt="" />
+              <p>The Elder Scrolls Online: Gold Road</p>
+            </div>
+          </NuxtLink>
+          <NuxtLink href="/gameOfThrones">
+            <div>
+              <img src="/images/d.webp" alt="" />
+              <p>Game of Thrones: Legends</p>
+            </div>
+          </NuxtLink>
         </div>
       </div>
     </div>

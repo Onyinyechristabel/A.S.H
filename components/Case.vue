@@ -2,7 +2,7 @@
   <section class="case" id="caseid">
     <h2>Our Works/Case Studies</h2>
     <div class="case_content">
-      <NuxtLink href="/assassin" target="_blank">
+      <NuxtLink href="/assassin">
         <div
           class="case_one"
           :class="{ active: progress > 0 && progress < 0.3 }"
@@ -18,7 +18,7 @@
           </div>
         </div>
       </NuxtLink>
-      <NuxtLink href="/elderScroll" target="_blank">
+      <NuxtLink href="/elderScroll">
         <div
           class="case_one"
           :class="{ active: progress > 0.3 && progress < 0.6 }"
@@ -37,7 +37,7 @@
           </div>
         </div>
       </NuxtLink>
-      <NuxtLink href="/gameOfThrones" target="_blank">
+      <NuxtLink href="/gameOfThrones">
         <div
           class="case_one"
           :class="{ active: progress > 0.6 && progress < 0.9 }"

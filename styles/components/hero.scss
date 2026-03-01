@@ -1,5 +1,10 @@
 .hero {
   position: relative;
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(0, 0, 0, 0.2) 100%
+  );
 }
 .hero_content {
   position: absolute;

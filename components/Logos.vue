@@ -1,6 +1,6 @@
 <template>
   <section class="logo">
-    <h1>Select Client</h1>
+    <h1>Select Clients</h1>
     <div class="logo_logo">
       <div>
         <img src="/images/Rectangle.webp" alt="" class="logo_img" />

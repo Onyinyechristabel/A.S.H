@@ -1,7 +1,7 @@
 <template>
   <section class="work">
     <h3>
-      <span class="work_span">[</span>Why Work With Us?
+      <span class="work_span">[</span>WHY WORK WITH US?
       <span class="work_span">]</span>
     </h3>
     <div class="work_content">

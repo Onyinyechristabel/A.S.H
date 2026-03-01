@@ -25,6 +25,9 @@
   gap: 1rem;
   position: relative;
   z-index: 1;
+  &:hover {
+    scale: 1.1;
+  }
   @include media("<phone") {
     display: flex;
     padding: 2rem 2.4rem;
