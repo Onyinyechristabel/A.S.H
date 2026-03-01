@@ -34,12 +34,12 @@
         </h3>
       </NuxtLink>
     </div>
-    <div class="header_menu">
+    <!-- <div class="header_menu">
       <h3 data-id="work" class="header_menu_text">WORK</h3>
       <h3 data-id="about" class="header_menu_text">ABOUT</h3>
       <h3 data-id="services" class="header_menu_text">SERVICES</h3>
       <h3 data-id="contact" class="header_menu_text">CONTACT</h3>
-    </div>
+    </div> -->
   </header>
 </template>
 

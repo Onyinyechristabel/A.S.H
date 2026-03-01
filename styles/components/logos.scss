@@ -7,6 +7,11 @@
   align-items: center;
   gap: 15.1rem;
   aspect-ratio: 151/74;
+  @include media("<phone") {
+    width: 39rem;
+    padding: 6.8rem 2rem 7.45rem 2rem;
+    gap: 8rem;
+  }
 }
 
 .logo > h1 {
@@ -17,6 +22,15 @@
   font-weight: 500;
   line-height: 100%; /* 4.8rem */
   letter-spacing: -0.096rem;
+  @include media("<phone") {
+    color: #fff;
+    font-family: "Haas Grot Disp Trial";
+    font-size: 3.2rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 100%; /* 3.2rem */
+    letter-spacing: -0.064rem;
+  }
 }
 
 .logo_logo {
@@ -24,15 +38,26 @@
   flex-direction: column;
   align-items: center;
   gap: 7.8rem;
+  @include media("<phone") {
+    gap: 5.1rem;
+  }
 }
 
 .logo_logo > div {
   display: flex;
   align-items: center;
   gap: 9.2rem;
+
+  @include media("<phone") {
+    flex-wrap: wrap;
+    gap: 5.7rem;
+  }
 }
 
 .logo_img {
   width: 12.0408rem;
   height: fit-content;
+  @include media("<phone") {
+    width: 7.7939rem;
+  }
 }
