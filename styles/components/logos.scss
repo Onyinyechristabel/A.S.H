@@ -56,7 +56,7 @@
 
 .logo_img {
   width: 12.0408rem;
-  height: fit-content;
+  height: auto;
   @include media("<phone") {
     width: 7.7939rem;
   }
