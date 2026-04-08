@@ -5,13 +5,16 @@
         <img src="/images/artsvg.svg" alt="" />
       </NuxtLink>
       <div>
-        <NuxtLink href="/" target="_blank">
+        <NuxtLink href="https://www.instagram.com/awemechannel" target="_blank">
           <img src="/images/InstagramLogo.svg" alt="" />
         </NuxtLink>
-        <NuxtLink href="/" target="_blank">
+        <NuxtLink
+          href="https://www.linkedin.com/company/ash-entertainment"
+          target="_blank"
+        >
           <img src="/images/LinkedLogo.svg" alt="" />
         </NuxtLink>
-        <NuxtLink href="/" target="_blank">
+        <NuxtLink href="https://www.youtube.com/AweMe" target="_blank">
           <img src="/images/YoutubeLogo.svg" alt="" />
         </NuxtLink>
       </div>

@@ -61,3 +61,93 @@
     width: 7.7939rem;
   }
 }
+
+.l1 > img:nth-of-type(1) {
+  width: 8.0463rem;
+  height: 7.3455rem;
+  @include media("<phone") {
+    width: 4.0891rem;
+    height: 3.6196rem;
+  }
+}
+.l1 > img:nth-of-type(2) {
+  width: 17.9rem;
+  height: 6.4rem;
+  @include media("<phone") {
+    width: 9.8rem;
+    height: 3.5rem;
+  }
+}
+.l1 > img:nth-of-type(3) {
+  width: 12.728rem;
+  height: 7.4rem;
+  @include media("<phone") {
+    width: 6.6165rem;
+    height: 3.8468rem;
+  }
+}
+.l1 > img:nth-of-type(4) {
+  width: 20.2rem;
+  height: 6.5rem;
+  @include media("<phone") {
+    width: 9.9rem;
+    height: 3.2rem;
+  }
+}
+.l1 > img:nth-of-type(5) {
+  width: 8.6308rem;
+  height: 6.4286rem;
+  @include media("<phone") {
+    width: 4.2646rem;
+    height: 3.1633rem;
+  }
+}
+.l2 > img:nth-of-type(1) {
+  width: 10.1471rem;
+  height: 7.2479rem;
+  @include media("<phone") {
+    width: 6.0882rem;
+    height: 4.3896rem;
+  }
+}
+.l2 > img:nth-of-type(2) {
+  width: 7.3455rem;
+  height: 6.8441rem;
+  @include media("<phone") {
+    width: 4.0808rem;
+    height: 3.8817rem;
+  }
+}
+.l2 > img:nth-of-type(3) {
+  width: 13.9683rem;
+  height: 6.5684rem;
+  @include media("<phone") {
+    width: 7.7939rem;
+    height: 3.6947rem;
+  }
+}
+.l2 > img:nth-of-type(4) {
+  width: 13rem;
+  height: 7rem;
+  @include media("<phone") {
+    width: 5.9rem;
+    height: 3.2rem;
+  }
+}
+.l2 > img:nth-of-type(5) {
+  width: 7rem;
+  height: 7rem;
+  @include media("<phone") {
+    width: 3.6rem;
+    height: 3.6rem;
+  }
+}
+
+.l2 > img:nth-of-type(6) {
+  width: 8.3rem;
+  height: 7.1rem;
+  @include media("<phone") {
+    width: 4rem;
+    height: 3.5rem;
+  }
+}

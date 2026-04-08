@@ -67,12 +67,12 @@
         </div>
       </div>
       <div class="assassin_images_category">
-        <img src="/images/Frame 42.webp" alt="" data-desktop />
-        <img src="/images/Frame 43.webp" alt="" data-desktop />
-        <img src="/images/Frame 44.webp" alt="" data-desktop />
-        <img src="/images/Frame 420.webp" alt="" data-mobile />
-        <img src="/images/Frame 430.webp" alt="" data-mobile />
-        <img src="/images/Frame 440.webp" alt="" data-mobile />
+        <img src="/images/bb1.webp" alt="" data-desktop />
+        <img src="/images/bb2.webp" alt="" data-desktop />
+        <img src="/images/bb3.webp" alt="" data-desktop />
+        <img src="/images/bb1.webp" alt="" data-mobile />
+        <img src="/images/bb2.webp" alt="" data-mobile />
+        <img src="/images/bb3.webp" alt="" data-mobile />
       </div>
 
       <div class="assassin_related">

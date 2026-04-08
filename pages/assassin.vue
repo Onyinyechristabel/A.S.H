@@ -36,7 +36,7 @@
           reach to a broader audience.
         </h2>
       </div>
-      <div class="assassin_approach">
+      <!-- <div class="assassin_approach">
         <h3 class="assassin_approach_left">
           <span class="assassin_span">[</span>OUR APPROACH<span
             class="assassin_span"
@@ -64,14 +64,78 @@
             </div>
           </div>
         </div>
+      </div> -->
+      <div class="new_assassin">
+        <p class="new_assassin_approach">[OUR APPROACH]</p>
+        <div class="new_assasin_div">
+          <p>
+            To ignite excitement for Assassin's Creed: Shadows at Ubisoft
+            Forward, we brought the games arsenal to life. Attendees including
+            influencers and press, witnessed a live forging demonstration
+            creating unique Kunai bottle openers and Nobunaga's insignia gold
+            coins as one-of-a-kind collectibles. This immersive experience
+            provided memorable content opportunities and bridged the gap between
+            game and reality.
+          </p>
+          <br />
+          <br />
+          <p>
+            We amplified this excitement through seven dynamic social posts
+            during the event, showcasing everything from intricate replica
+            weapons to the live forging action. This campaign massively expanded
+            the activation's reach, forging a deeper connection with the
+            community across all social channels
+          </p>
+          <div class="new_asasssin_firstimg">
+            <img src="/images/kka.webp" alt="" />
+            <img src="/images/kkb.webp" alt="" />
+            <img src="/images/kkc.webp" alt="" />
+            <img src="/images/kkd.webp" alt="" />
+          </div>
+          <p>
+            We brought iconic weapons to life in two episodes of Man at Arms:
+            Reforged. Nace’s Kusarigama and Yasuke’s Katana and Wakizashi were
+            recreated using authentic Japanese smithing techniques and imported
+            black sand. Episodes premiered on the AWE me YouTube channel with
+            short-form content across other platforms (TikTok, Instagram,
+            Facebook, X).
+          </p>
+          <div class="new_asasssin_secondimg">
+            <img src="/images/kke.webp" alt="" />
+            <img src="/images/kkf.webp" alt="" />
+            <img src="/images/kkg.webp" alt="" />
+            <img src="/images/kkh.webp" alt="" />
+          </div>
+        </div>
+      </div>
+      <div class="campaign">
+        <h2 class="campaign_header">CAMPAIGN OVERVIEW</h2>
+        <div class="campaign_campaign">
+          <div class="cf">
+            <h2>36M</h2>
+            <p>Delivered Impressions</p>
+          </div>
+          <div class="cf">
+            <h2>2</h2>
+            <p>Interactive Exhibits</p>
+          </div>
+          <div class="cf">
+            <h2>12</h2>
+            <p>Videos Produced</p>
+          </div>
+          <div class="cf">
+            <h2>7</h2>
+            <p>Social Posts</p>
+          </div>
+        </div>
       </div>
       <div class="assassin_images_category">
-        <img src="/images/ASSASIN.webp" alt="" data-desktop />
-        <img src="/images/ASSASIN 2.webp" alt="" data-desktop />
-        <img src="/images/ASSASIN 3.webp" alt="" data-desktop />
-        <img src="/images/ASSASINS.webp" alt="" data-mobile />
-        <img src="/images/ASSASINS 2.webp" alt="" data-mobile />
-        <img src="/images/ASSASINS 3.webp" alt="" data-mobile />
+        <img src="/images/ki.webp" alt="" data-desktop />
+        <img src="/images/kkf.webp" alt="" data-desktop />
+        <img src="/images/kj.webp" alt="" data-desktop />
+        <img src="/images/ki.webp" alt="" data-mobile />
+        <img src="/images/kkf.webp" alt="" data-mobile />
+        <img src="/images/kj.webp" alt="" data-mobile />
       </div>
 
       <div class="assassin_related">
