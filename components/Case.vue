@@ -1,6 +1,6 @@
 <template>
   <section class="case" id="caseid">
-    <h2>Our Works/Case Studies</h2>
+    <h2>Our Work</h2>
     <div class="case_content">
       <NuxtLink href="/assassin">
         <div
@@ -8,10 +8,10 @@
           :class="{ active: progress > 0 && progress < 0.3 }"
         >
           <div>
-            <h5>Client / Brand</h5>
-            <p>Short 1-line description</p>
+            <h5>Brand</h5>
+            <p>UBISOFT</p>
           </div>
-          <h3>Assassin's Creed: <span class="shadows"> Shadows </span></h3>
+          <h3>Assassin's Creed <span class="shadows"> Shadows </span></h3>
           <div class="readmore">
             <img src="/images/k.webp" alt="" class="k" />
             <h4><span>[</span>READ MORE <span>]</span></h4>
@@ -24,8 +24,8 @@
           :class="{ active: progress > 0.3 && progress < 0.6 }"
         >
           <div>
-            <h5>Client / Brand</h5>
-            <p>Short 1-line description</p>
+            <h5>Brand</h5>
+            <p>BETHESDA SOFTWORKS</p>
           </div>
           <h3>
             The Elder Scrolls Online:<br />
@@ -43,8 +43,8 @@
           :class="{ active: progress > 0.6 && progress < 0.9 }"
         >
           <div>
-            <h5>Client / Brand</h5>
-            <p>Short 1-line description</p>
+            <h5>Brand</h5>
+            <P>ZYNGA</P>
           </div>
           <h3>Game of Thrones: <span class="shadows"> Legends</span></h3>
           <div>

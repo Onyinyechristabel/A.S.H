@@ -4,8 +4,8 @@
     <div class="assassins">
       <div class="assassin_header">
         <div class="assasin_left">
-          <h3>Client / Brand</h3>
-          <h4>Short 1-line description</h4>
+          <h3>Brand</h3>
+          <p>ZYNGA</p>
         </div>
         <h3 class="assassin_right">Game of Thrones: Legends</h3>
       </div>
@@ -24,10 +24,12 @@
         <h2 class="assassin_challenges_right">
           Zynga, a leader in mobile and social video gaming, was developing Game
           of Thrones: Legends, a new mobile RPG set in the beloved, brutal world
-          of Westeros. To create excitement and get the attention of both Game
-          of Thrones fans and mobile gamers, they needed a campaign that
-          authentically captured the essence of the franchise while highlighting
-          the unique features of the game.
+          of Westeros.
+          <br />
+          <br />
+          To create excitement and attract both Game of Thrones fans and mobile
+          gamers, they needed a campaign that authentically captured the essence
+          of the franchise while highlighting the game's unique features.
         </h2>
       </div>
       <div class="assassin_approach">
@@ -51,35 +53,11 @@
         <img src="/images/zynga 22.webp" alt="" data-mobile />
         <img src="/images/zynga33.webp" alt="" data-mobile />
       </div>
-      <div class="assassin_takeaway">
-        <h3 class="assassin_takeaway_left">
-          <span class="assassin_span">[</span>TAKEAWAYS<span
-            class="assassin_span"
-            >]</span
-          >
-        </h3>
-        <div class="assassin_takeaway_right">
-          <h2>
-            When appropriate, we leverage the power of collaboration to reach
-            wider audiences and amplify your message.
-          </h2>
-          <h2>
-            We immerse fans in the worlds they love, creating meaningful
-            connections for new players.
-          </h2>
-          <h2>
-            We create engaging videos that capture attention and drive results.
-          </h2>
-          <h2>
-            We create tangible recreations of fantastical items, adding an extra
-            layer of immersion and excitement.
-          </h2>
-        </div>
-      </div>
+
       <div class="assassin_related">
         <h2>Related Work</h2>
         <div class="assassin_related_content">
-          <NuxtLink href="/elderScroll" class="assassin_related_content_div">
+          <NuxtLink href="/assassin" class="assassin_related_content_div">
             <img src="/images/r.webp" alt="" />
             <p>Assassin's Creed: Shadows</p>
           </NuxtLink>
@@ -87,7 +65,7 @@
             <img src="/images/m.webp" alt="" />
             <p>The Elder Scrolls Online: Gold Road</p>
           </NuxtLink>
-          <NuxtLink href="/elderScroll" class="assassin_related_content_div">
+          <NuxtLink href="/gameOfThrones" class="assassin_related_content_div">
             <img src="/images/d.webp" alt="" />
             <p>Game of Thrones: Legends</p>
           </NuxtLink>

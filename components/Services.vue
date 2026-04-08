@@ -31,7 +31,7 @@
         <div class="second_services_right">
           <div>
             <p>[02]</p>
-            <h2>HIGH-IMPACT MEDIA</h2>
+            <h2>MEDIA</h2>
           </div>
           <h4>
             <span>Focus:</span> Reaching and engaging players through our

@@ -89,20 +89,18 @@
 }
 
 @font-face {
-  font-family: "Haas Grot Disp 65";
   font-family: "Haas Grot Disp Trial";
-  src: url("HaasGrotDisp-66MediumItalic.woff2") format("woff2"),
-    url("HaasGrotDisp-66MediumItalic.woff") format("woff");
+  src: url("./HaasGrotDisp-66MediumItalic.woff2") format("woff2"),
+    url("./HaasGrotDisp-66MediumItalic.woff") format("woff");
   font-weight: 500;
   font-style: italic;
   font-display: swap;
 }
 
 @font-face {
-  font-family: "Haas Grot Disp 65";
   font-family: "Haas Grot Disp Trial";
-  src: url("HaasGrotDisp-65Medium.woff2") format("woff2"),
-    url("HaasGrotDisp-65Medium.woff") format("woff");
+  src: url("./HaasGrotDisp-65Medium.woff2") format("woff2"),
+    url("./HaasGrotDisp-65Medium.woff") format("woff");
   font-weight: 500;
   font-style: normal;
   font-display: swap;

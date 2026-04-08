@@ -29,13 +29,21 @@
   align-self: stretch;
 }
 
-.assasin_left h3 {
+.assasin_left > p {
   color: #fff;
   font-family: "Haas Grot Disp Trial";
   font-size: 1.6rem;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 500;
   line-height: 100%; /* 1.6rem */
+}
+.assasin_left h3 {
+  color: rgba(255, 255, 255, 0.65);
+  font-family: "Haas Grot Disp Trial";
+  font-size: 1.4rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%; /* 1.96rem */
 }
 
 .assasin_left h4 {
@@ -339,4 +347,74 @@
     line-height: 140%; /* 3.36rem */
     letter-spacing: -0.024rem;
   }
+}
+
+.assassin_approach_righter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 6.4rem;
+  flex: 1 0 0;
+}
+
+.assassin_process {
+  display: flex;
+  align-items: flex-start;
+  align-content: flex-start;
+  gap: 4.8rem;
+  align-self: stretch;
+  flex-wrap: wrap;
+}
+
+.assassin_process > div:nth-of-type(1) {
+  display: flex;
+  width: 29.2333rem;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 3.2rem;
+}
+
+.assassin_process > div:nth-of-type(2) {
+  display: flex;
+  width: 29.2333rem;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 3.2rem;
+}
+
+.assassin_process > div:nth-of-type(3) {
+  display: flex;
+  width: 29.2333rem;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 3.2rem;
+}
+
+.assassin_process > div > h3 {
+  color: #fff;
+  font-family: "Haas Grot Disp Trial";
+  font-size: 3.2rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 4.8rem */
+  display: flex;
+  width: 6rem;
+  height: 6rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  background: rgba(255, 255, 255, 0.16);
+}
+
+.assassin_process > div > h2 {
+  color: #fff;
+  font-family: "Haas Grot Disp Trial";
+  font-size: 4rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 100%; /* 4rem */
+  width: 27rem;
 }
