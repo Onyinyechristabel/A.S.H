@@ -84,7 +84,7 @@
             during the event, showcasing everything from intricate replica
             weapons to the live forging action. This campaign massively expanded
             the activation's reach, forging a deeper connection with the
-            community across all social channels
+            community across all social channels.
           </p>
           <div class="new_asasssin_firstimg">
             <img src="/images/kka.webp" alt="" />

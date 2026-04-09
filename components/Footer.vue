@@ -17,6 +17,12 @@
         <NuxtLink href="https://www.youtube.com/AweMe" target="_blank">
           <img src="/images/YoutubeLogo.svg" alt="" />
         </NuxtLink>
+        <NuxtLink
+          href="https://www.tiktok.com/@man_at_arms_reforged"
+          target="_blank"
+        >
+          <img src="/images/tiktok.svg" alt="" />
+        </NuxtLink>
       </div>
     </div>
     <div class="second_footer">

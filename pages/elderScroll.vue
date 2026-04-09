@@ -67,14 +67,35 @@
         </div>
       </div>
       <div class="assassin_images_category">
-        <img src="/images/bb1.webp" alt="" data-desktop />
-        <img src="/images/bb2.webp" alt="" data-desktop />
-        <img src="/images/bb3.webp" alt="" data-desktop />
-        <img src="/images/bb1.webp" alt="" data-mobile />
-        <img src="/images/bb2.webp" alt="" data-mobile />
-        <img src="/images/bb3.webp" alt="" data-mobile />
+        <img src="/images/l1.webp" alt="" data-desktop />
+        <img src="/images/l2.webp" alt="" data-desktop />
+        <img src="/images/l3.webp" alt="" data-desktop />
+        <img src="/images/l1.webp" alt="" data-mobile />
+        <img src="/images/l2.webp" alt="" data-mobile />
+        <img src="/images/l3.webp" alt="" data-mobile />
       </div>
-
+      <div class="result">
+        <h2 class="result_header">[RESULTS]</h2>
+        <div class="result_result">
+          <div>
+            <h2>GOING BEYOND:</h2>
+            <p>
+              The campaign exceeded expectations by generating over 1M+ views
+              and 24M+ impressions across our platforms, sparking widespread
+              discussion online.
+            </p>
+          </div>
+          <div>
+            <h2>COMMUNITY ENGAGEMENT:</h2>
+            <p>
+              The man at arms: regorged episode created a deeper connection
+              between players and the game world, with fans praising the
+              attention to detail and the tangible representation of an exciting
+              new in-game item.
+            </p>
+          </div>
+        </div>
+      </div>
       <div class="assassin_related">
         <h2>Related Work</h2>
         <div class="assassin_related_content">

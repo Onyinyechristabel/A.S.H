@@ -90,7 +90,6 @@
   display: none;
   @include media("<phone") {
     background: black;
-    padding: 12rem 4rem 6rem 4rem;
     display: flex;
     align-items: self-start;
     flex-direction: column;
@@ -108,4 +107,19 @@
     letter-spacing: -0.168rem;
     font-family: "Haas Grot Disp Trial";
   }
+}
+
+.header_menu_text {
+  color: #fff;
+  font-family: "Haas Grot Disp Trial";
+  font-size: 5.6rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100%; /* 5.6rem */
+  letter-spacing: -0.168rem;
+  display: flex;
+  padding: 2.4rem 2rem;
+  flex-direction: column;
+  align-items: flex-start;
+  align-self: stretch;
 }

@@ -34,12 +34,20 @@
         </h3>
       </NuxtLink>
     </div>
-    <!-- <div class="header_menu">
+    <div class="header_menu">
+      <!-- <div class="header_menu_header">
+        <NuxtLink href="/" class="header_profile">
+          <div class="menuh">
+            <img src="/images/artsvg.svg" alt="" />
+            <img class="menuimg" data-mobile src="/images/icon2.svg" alt="" />
+          </div>
+        </NuxtLink>
+      </div> -->
       <h3 data-id="work" class="header_menu_text">WORK</h3>
       <h3 data-id="about" class="header_menu_text">ABOUT</h3>
       <h3 data-id="services" class="header_menu_text">SERVICES</h3>
       <h3 data-id="contact" class="header_menu_text">CONTACT</h3>
-    </div> -->
+    </div>
   </header>
 </template>
 
