@@ -17,7 +17,22 @@
     <NuxtLink href="/" class="header_profile">
       <div class="menuh">
         <img src="/images/artsvg.svg" alt="" />
-        <img class="menuimg" data-mobile src="/images/icon2.svg" alt="" />
+        <img
+          class="menuimg"
+          data-mobile
+          src="/images/menu.svg"
+          alt=""
+          v-if="active"
+          @click="active = false"
+        />
+        <img
+          class="menuimg"
+          data-mobile
+          src="/images/icon2.svg"
+          alt=""
+          v-else
+          @click="active = true"
+        />
       </div>
     </NuxtLink>
     <div>
@@ -34,7 +49,7 @@
         </h3>
       </NuxtLink>
     </div>
-    <div class="header_menu">
+    <div class="header_menu" v-if="active">
       <!-- <div class="header_menu_header">
         <NuxtLink href="/" class="header_profile">
           <div class="menuh">
@@ -43,10 +58,18 @@
           </div>
         </NuxtLink>
       </div> -->
-      <h3 data-id="work" class="header_menu_text">WORK</h3>
-      <h3 data-id="about" class="header_menu_text">ABOUT</h3>
-      <h3 data-id="services" class="header_menu_text">SERVICES</h3>
-      <h3 data-id="contact" class="header_menu_text">CONTACT</h3>
+      <NuxtLink @click="scrollTo('#caseid')" target="_blank">
+        <h3 data-id="work" class="header_menu_text">WORK</h3>
+      </NuxtLink>
+      <NuxtLink @click="scrollTo('#aboutid')" target="_blank">
+        <h3 data-id="about" class="header_menu_text">ABOUT</h3>
+      </NuxtLink>
+      <NuxtLink @click="scrollTo('#servicesid')" target="_blank">
+        <h3 data-id="services" class="header_menu_text">SERVICES</h3>
+      </NuxtLink>
+      <NuxtLink @click="scrollTo('#contactid')" target="_blank">
+        <h3 data-id="contact" class="header_menu_text">CONTACT</h3>
+      </NuxtLink>
     </div>
   </header>
 </template>
@@ -54,6 +77,7 @@
 <script setup lang="ts">
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/all";
+const active = ref(false);
 onMounted(() => {
   gsap.registerPlugin(ScrollTrigger);
   ScrollTrigger.create({

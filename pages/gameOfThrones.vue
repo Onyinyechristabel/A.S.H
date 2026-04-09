@@ -62,7 +62,8 @@
             leveraged AWE me’s 7M+ subscriber base by producing 2 new videos for
             the channel: 1, an announcement of our collaboration with Game of
             Thrones: Legends that teased the live game show; and 2, a travel
-            vlog that captured Kerry’s
+            vlog that captured Kerry’s experience at the Game of Thrones
+            Studios.
           </p>
           <div class="new_asasssin_firstimg">
             <img src="/images/aa1.webp" alt="" />
