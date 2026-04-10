@@ -26,7 +26,7 @@
           @click="active = false"
         />
         <img
-          class="menuimg"
+          class="menuimg open"
           data-mobile
           src="/images/icon2.svg"
           alt=""

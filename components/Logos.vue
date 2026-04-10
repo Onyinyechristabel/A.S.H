@@ -8,6 +8,7 @@
         <img src="/images/iii.webp" alt="" class="logo_img" />
         <img src="/images/iv.webp" alt="" class="logo_img" />
         <img src="/images/v.webp" alt="" class="logo_img" />
+        <img src="/images/x.webp" alt="" class="logo_img" data-mobile />
       </div>
       <div class="l2">
         <img src="/images/vi.webp" alt="" class="logo_img" />
@@ -16,6 +17,7 @@
         <img src="/images/ix.webp" alt="" class="logo_img" />
         <img src="/images/x.webp" alt="" class="logo_img" />
         <img src="/images/xi.webp" alt="" class="logo_img" />
+        <!-- <img src="/images/v.webp" alt="" class="logo_img" data-mobile /> -->
       </div>
     </div>
   </section>

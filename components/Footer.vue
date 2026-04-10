@@ -42,6 +42,19 @@
     <div class="third_footer">
       <h3>Copyright © 2024 ASH Entertainment</h3>
     </div>
+
+    <div class="nined">
+      <h2>
+        Design and DEV by
+        <a
+          href="  https://www.ninefortyone.agency/"
+          target="blank"
+          class="footer_span"
+        >
+          Ninefortyone Studio</a
+        >
+      </h2>
+    </div>
   </footer>
 </template>
 
