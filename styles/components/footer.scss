@@ -7,6 +7,7 @@
   background: #171717;
   padding-bottom: 10rem;
   position: relative;
+  cursor: pointer;
   @include media("<phone") {
     display: flex;
     padding: 2rem;

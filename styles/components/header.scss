@@ -10,6 +10,7 @@
   left: 0;
   right: 0;
   backdrop-filter: blur(0.4rem);
+  cursor: pointer;
   @include media("<phone") {
     width: 39rem;
     padding: 0;

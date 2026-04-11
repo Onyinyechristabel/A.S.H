@@ -21,7 +21,7 @@
           href="https://www.tiktok.com/@man_at_arms_reforged"
           target="_blank"
         >
-          <img src="/images/tiktok.svg" alt="" />
+          <img src="/images/ttok.svg" alt="" />
         </NuxtLink>
       </div>
     </div>
@@ -45,7 +45,7 @@
 
     <div class="nined">
       <h2>
-        Design and DEV by
+        Design and Dev by
         <a
           href="  https://www.ninefortyone.agency/"
           target="blank"
