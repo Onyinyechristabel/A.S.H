@@ -1,7 +1,7 @@
 <template>
   <section class="button">
     <NuxtLink href="/contacts" target="_blank">
-      <button class="btn">LET’S COLLABORATE</button>
+      <button class="btn bd">LET’S COLLABORATE</button>
       <div class="colors">
         <div></div>
         <div></div>

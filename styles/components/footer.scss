@@ -48,6 +48,10 @@
   width: 2.4rem;
   height: 2.4rem;
   aspect-ratio: 1/1;
+  @include media("<phone") {
+    width: 2rem;
+    height: 2.1rem;
+  }
 }
 
 .second_footer {

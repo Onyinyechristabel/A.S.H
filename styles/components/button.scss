@@ -46,6 +46,12 @@
   }
 }
 
+.bd {
+  @include media("<phone") {
+    width: 29rem;
+  }
+}
+
 .colors {
   display: flex;
   position: absolute;
